@@ -1,0 +1,12 @@
+# 収録データ・学習結果・モデルは git に入れない（置き場所は wiki）
+*.csv
+*.joblib
+*.task
+*.png
+# ビルド成果物・環境
+shm/kinect_shm_server
+build/
+__pycache__/
+.venv/
+venv*/
+_venv/
